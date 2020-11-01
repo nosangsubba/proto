@@ -38,4 +38,7 @@ app.config(function ($routeProvider) {
       templateUrl:"view-review.html",
       controller:"reviewController"
     })
+    .otherwise({
+      redirectTo: "/List"
+  })
   });
